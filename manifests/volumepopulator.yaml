@@ -1,0 +1,7 @@
+apiVersion: populator.storage.k8s.io/v1beta1
+kind: VolumePopulator
+metadata:
+  name: ghp
+sourceKind:
+  group: k8s.viveksingh.dev
+  kind: GenericHTTPPopulator

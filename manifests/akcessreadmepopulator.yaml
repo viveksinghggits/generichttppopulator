@@ -1,0 +1,6 @@
+apiVersion: k8s.viveksingh.dev/v1alpha1
+kind: GenericHTTPPopulator
+metadata:
+  name: akcess-readme-pop
+spec:
+  uri: https://raw.githubusercontent.com/viveksinghggits/akcess/master/README.md
